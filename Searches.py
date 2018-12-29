@@ -1,8 +1,3 @@
-#========================================================#
-# File:   Searches - Various search functions
-# Author: wolfinabox
-# GitHub: https://github.com/wolfinabox/pyutils
-#========================================================#
 from typing import Union
 
 def rec_in(item,container:Union[list,tuple])->bool:

@@ -1,8 +1,3 @@
-#========================================================#
-# File:   Format - Various string formatting functions
-# Author: wolfinabox
-# GitHub: https://github.com/wolfinabox/pyutils
-#========================================================#
 def truncate(data:str,length:int,append:str='')->str:
     """
     Truncates a string to the given length\n

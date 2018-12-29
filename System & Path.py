@@ -1,8 +1,3 @@
-#========================================================#
-# File:   System - Various "system-related" functions
-# Author: wolfinabox
-# GitHub: https://github.com/wolfinabox/pyutils
-#========================================================#
 def is_executable()->bool:
     """
     Determine if the current script is packaged as an executable\n

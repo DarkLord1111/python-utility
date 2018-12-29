@@ -24,7 +24,7 @@ def ask_option(question:str, options:list): # es ask_option('choose the box: ', 
     """
     response='0'
     while response[0] not in options:
-        response = input(question + '[' + str(options)+ ']: ')
+        response = input(question + '[ ' + str(options)+ ']: ')
         if not response or response.isspace():
             response = '0'
     return response[0] #True, return chosen option
